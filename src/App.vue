@@ -24,9 +24,9 @@
         fullStyle: [
           `/*
 * Inspired by http://strml.net/
-* 大家好，我是方方 
-* 二月了，好多公司都在招聘，你是不是也在准备简历呀。
-* 说做就做，我也来写一份简历！
+* 大家好，我是司惊雷！ 
+* 初次见面以这样的方式来展现自己的简历，希望您能抽出您宝贵的时间认真阅读。
+* 那么先说一下我简历形成的思路，大体如下：
 */
 
 /* 首先给所有元素加上过渡效果 */
@@ -117,34 +117,31 @@ html{
 }
 `],
         currentMarkdown: '',
-        fullMarkdown: `方应杭
+        fullMarkdown: `司惊雷
 ----
 
-资深前端工程师，资深前端讲师，现在在 [饥人谷](http://jirengu.com) 教前端课程。
+资深前端工程师，资深前端讲师，现在在深圳赛飞软件就职，主要负责前端工作。
 
 技能
 ----
 
 * 前端开发
-* Rails 开发
+* Vue.js 开发
 * Node.js 开发
-* 前端授课
 
 工作经历
 ----
 
-1. [饥人谷](http://jirengu.com)
-2. 腾讯即时通讯平台部
-3. 阿里巴巴B2B部门
-4. 彩程知人项目组
+1. 深圳赛飞软件有限公司(https://www.isoffice.cn/)
+2. 深圳东方在线电子商务有限公司
+3. 深圳明源软件股份有限公司
+4. 西安神灯网络科技有限公司
 
 链接
 ----
 
-* [GitHub](https://github.com/frankfang)
-* [我的文章](https://www.zhihu.com/people/zhihusucks/pins/posts)
-
-> 如果你喜欢这个效果，Fork [我的项目](https://github.com/jirengu-inc/animating-resume)，打造你自己的简历！
+* [GitHub](https://github.com/sijinglei)
+* [我的文章](https://www.zhihu.com/people/cheng-chi-72-85/pins/posts)
 
 `
       }

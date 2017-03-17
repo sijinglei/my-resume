@@ -2,7 +2,7 @@
 
 > This is my resume
 
-[预览](https://jirengu-inc.github.io/my-resume/dist/)
+[预览](https://sijinglei.github.io/my-resume/dist/)
 
 ## 使用方法
 

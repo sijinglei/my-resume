@@ -1,9 +1,9 @@
 {
-  "name": "resume-a-resume",
+  "name": "my-resume",
   "version": "1.0.0",
   "description": "This is my resume",
-  "author": " <>",
-  "private": true,
+  "author": "sjl",
+  "private": false,
   "scripts": {
     "dev": "node build/dev-server.js",
     "build": "node build/build.js"
@@ -50,5 +50,15 @@
   "engines": {
     "node": ">= 4.0.0",
     "npm": ">= 3.0.0"
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sijinglei/my-resume.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sijinglei/my-resume/issues"
+  },
+  "homepage": "https://github.com/sijinglei/my-resume#readme"
 }
