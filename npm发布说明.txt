@@ -1,0 +1,9 @@
+1、首先使用以下命令在 npm 资源库中注册用户
+$ npm adduser
+Username: mcmohd
+Password:
+Email: (this IS public) mcmohd@gmail.com
+2、用以下命令来发布模块
+$ npm publish 
+
+注意：每次发布版本都要与上次不一样
