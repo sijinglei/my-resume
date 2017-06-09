@@ -21,8 +21,7 @@ export default {
       interval: 50,
       currentStyle: '',
       enableHtml: false,
-      fullStyle: [
-        `/*
+      fullStyle: [ `/*
 * Inspired by http://strml.net/
 * 大家好，我是司惊雷！ 
 * 初次见面以这样的方式来展现自己的简历，希望您能抽出您宝贵的时间认真阅读。
