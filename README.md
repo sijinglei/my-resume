@@ -21,7 +21,7 @@ npm run dev
 2. 编译、上传
     ``` bash
     npm run build
-    git add .
+    git add --all
     git commit -m "update"
     git push
     ```
