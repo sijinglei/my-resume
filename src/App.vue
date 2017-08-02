@@ -22,7 +22,6 @@ export default {
       currentStyle: '',
       enableHtml: false,
       fullStyle: [ `/*
-* Inspired by http://strml.net/
 * 大家好，我是司惊雷！ 
 * 初次见面以这样的方式来展现自己的简历，希望您能抽出您宝贵的时间认真阅读。
 * 那么先说一下我简历形成的思路，大体如下：
@@ -126,17 +125,16 @@ html{
 技能
 ----
 
-* 前端开发
+* 前端开发工程师
 * Vue.js 开发
 * Node.js 开发
 
 工作经历
 ----
 
-1. 深圳赛飞软件有限公司(https://www.isoffice.cn/)
+1. 深圳赛飞软件有限公司(https://www.tronker.cn/)
 2. 深圳东方在线电子商务有限公司
 3. 深圳明源软件股份有限公司
-4. 西安神灯网络科技有限公司
 
 链接
 ----
