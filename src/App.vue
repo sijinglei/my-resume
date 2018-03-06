@@ -22,7 +22,7 @@ export default {
       currentStyle: '',
       enableHtml: false,
       fullStyle: [ `/*
-* 大家好，我是司惊雷！ 
+* 大家好，我是司惊雷！
 * 初次见面以这样的方式来展现自己的简历，希望您能抽出您宝贵的时间认真阅读。
 * 那么先说一下我简历形成的思路，大体如下：
 */
@@ -34,7 +34,7 @@ export default {
 }
 /* 白色背景太单调了，我们来点背景 */
 html {
-  color: rgb(222,222,222); background: rgb(0,43,54); 
+  color: rgb(222,222,222); background: rgb(0,43,54);
 }
 /* 文字离边框太近了 */
 .styleEditor {
@@ -56,8 +56,8 @@ html{
           perspective: 1000px;
 }
 .styleEditor {
-  position: fixed; left: 0; top: 0; 
-  -webkit-transition: none; 
+  position: fixed; left: 0; top: 0;
+  -webkit-transition: none;
   transition: none;
   -webkit-transform: rotateY(10deg) translateZ(-100px) ;
           transform: rotateY(10deg) translateZ(-100px) ;
@@ -67,7 +67,7 @@ html{
 .resumeEditor{
   position: fixed; right: 0; top: 0;
   padding: .5em;  margin: .5em;
-  width: 48vw; height: 90vh; 
+  width: 48vw; height: 90vh;
   border: 1px solid;
   background: white; color: #222;
   overflow: auto;
@@ -106,8 +106,8 @@ html{
   counter-reset: section;
 }
 .resumeEditor ol li::before {
-  counter-increment: section;            
-  content: counters(section, ".") " ";  
+  counter-increment: section;
+  content: counters(section, ".") " ";
   margin-right: .5em;
 }
 .resumeEditor blockquote {
@@ -135,7 +135,7 @@ html{
 1. 深圳赛飞软件有限公司(https://www.tronker.cn/)
 2. 深圳东方在线电子商务有限公司
 3. 深圳明源软件股份有限公司
-
+4. 中人网
 链接
 ----
 
@@ -186,6 +186,7 @@ html{
             resolve()
           }
         }).bind(this)
+
         showStyle()
       })
     },
