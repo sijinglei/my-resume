@@ -22,7 +22,7 @@ export default {
       currentStyle: '',
       enableHtml: false,
       fullStyle: [ `/*
-* 大家好，我是司惊雷！
+* hi，大家好，我是司惊雷！
 * 初次见面以这样的方式来展现自己的简历，希望您能抽出您宝贵的时间认真阅读。
 * 那么先说一下我简历形成的思路，大体如下：
 */
@@ -59,13 +59,13 @@ html{
   position: fixed; left: 0; top: 0;
   -webkit-transition: none;
   transition: none;
-  -webkit-transform: rotateY(10deg) translateZ(-100px) ;
-          transform: rotateY(10deg) translateZ(-100px) ;
+  -webkit-transform: rotateY(10deg) translateZ(-100px);
+          transform: rotateY(10deg) translateZ(-100px);
 }
 
 /* 接下来我给自己准备一个编辑器 */
 .resumeEditor{
-  position: fixed; right: 0; top: 0;
+  position: fixed; right: 4em; top: 0;
   padding: .5em;  margin: .5em;
   width: 48vw; height: 90vh;
   border: 1px solid;
@@ -117,30 +117,43 @@ html{
 }
 `],
       currentMarkdown: '',
-      fullMarkdown: `司惊雷
+      fullMarkdown: `Hi,大家好！我叫司惊雷（和百度[惊雷算法](http://www.yinhuafeng.cn/baidu/394.html)没关系☺☺☺）。
 ----
 
-资深前端工程师，现在在深圳赛飞软件就职，主要负责前端工作。
+资深前端工程师，目前就职于中国人力资源开发网，主要负责前端开发工作。
+具有互联网金融及电商平台项目开发经验，熟悉java、C#等后台语言，并熟练运用前端各种流行框架~~
 
-技能
+
+前端技能
 ----
 
-* 前端开发工程师
-* Vue.js 开发
-* Node.js 开发
+1. 精通HTML，CSS，JavaScript等web前端开发技术，能手写符合W3C标准的前端代码；
+2. 精通jQuery库和bootstrap、H-ui等前端UI框架的使用，快速开发页面效果及实现页面交互；
+3. 熟练掌握VueJS，React等基于MVVM模式的单页面应用开发框架；
+4. 熟练使用swiper，zepto，animate.css等插件，快速开发移动端页面效果；
+5. 熟练使用Nodejs；
+6. 熟练 HTML5，CSS3 各种新技术；
+7. 熟悉后端语言 java、asp.net及mysql、sqlserver数据库的使用；
+8. 熟悉模块化开发：RequireJS\ejs;
+9. 熟悉svn，git代码版本管理工具；
+10. 熟练运用构建/打包管理工具：npm，yarn，webpack；
+11. 熟悉数据构建：Mock.js；
+
 
 工作经历
 ----
 
-1. 深圳赛飞软件有限公司(https://www.tronker.cn/)
-2. 深圳东方在线电子商务有限公司
-3. 深圳明源软件股份有限公司
-4. 中人网
+1. 中国人力资源开发网[链接](http://www.chinahrd.net/)
+2. 深圳赛飞（金服）软件有限公司[链接]((https://www.tronker.cn/))
+3. 深圳东方在线电子商务有限公司
+4. 深圳明源软件股份有限公司
+
 链接
 ----
 
 * [GitHub](https://github.com/sijinglei)
-* [我的文章](https://www.zhihu.com/people/cheng-chi-72-85/pins/posts)
+* [我的文章](https://juejin.im/post/5b568730f265da0fa1222a4c)
+* [个人详细简历](http://www.500d.me/cvresume/0928728665/)
 
 `
     }
